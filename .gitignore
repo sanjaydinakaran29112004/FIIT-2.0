@@ -1,18 +1,14 @@
 # dependencies
 node_modules/
-homepage/node_modules/
 /.pnp
 .pnp.*
 
 # next.js
 .next/
-homepage/.next/
 out/
-homepage/out/
 
 # production
 build/
-homepage/build/
 
 # misc
 .DS_Store
@@ -33,4 +29,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-homepage/next-env.d.ts
+
+# legacy separate root folders only
+/branches/
+/carerpath/
+/coursepage/
+/placement/
+/resource/
+/whyfiit/

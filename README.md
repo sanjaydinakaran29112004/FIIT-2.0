@@ -1,41 +1,41 @@
-# FIIT 2.0 Tech Education
+# FIIT 2.0 Tech Education - Unified Enterprise Platform
 
-A complete, modern web application for **FIIT 2.0 (Formacion Institute of Information Technology)** built with **Next.js (App Router)**, **React 19**, and **Tailwind CSS**.
+A complete, high-performance web application for **FIIT 2.0 (Formacion Institute of Information Technology)** built with **Next.js (App Router)**, **React 19**, **Turbopack**, and **Tailwind CSS**.
 
-## 📁 Repository Structure
+## 🌟 Connected Pages & Navigation
 
-```
-FIIT 2.0/
-├── homepage/                 # Complete Home Page Next.js Project
-│   ├── public/               # Static assets & icons
-│   ├── src/
-│   │   ├── app/              # App router (layout, globals.css, page.tsx)
-│   │   └── components/
-│   │       └── homepage/     # Modular 20+ section components
-│   ├── postcss.config.mjs    # Tailwind PostCSS configuration
-│   ├── next.config.ts        # Next.js configuration
-│   ├── tsconfig.json         # TypeScript configuration
-│   └── package.json          # Dependencies & scripts
-└── README.md
-```
+The application connects all 7 key sections with 0ms client-side transitions and dynamic active tab indicators:
 
-## 🚀 Running on Localhost
+| Route | Section | Description |
+|---|---|---|
+| `/` | **Home** | Enterprise hero, starting points, 9 tracks, pipeline, reality tiers, FAQ |
+| `/courses` | **Courses** | 24+ engineering curricula, search, filter sidebar, course modals |
+| `/career-paths` | **Career Paths** | 5-year compensation progression ladder, roadmap diagnostics |
+| `/why-fiit` | **Why FIIT** | Institutional rigor, 4 Pillars, 9 Hubs showcase, pedagogy comparison |
+| `/placement` | **Placement** | Salary distributions, hiring partners grid, verified student stories |
+| `/branches` | **Branches** | 9 Regional tech hubs across Tamil Nadu with enterprise hardware labs |
+| `/resources` | **Resources** | Tech salary benchmarks, interview rubrics, repo starters & downloads |
 
-To run the homepage application locally:
+## 🚀 Getting Started
+
+Run the development server locally:
 
 ```bash
-# 1. Navigate into the homepage directory
-cd homepage
-
-# 2. Install dependencies (if needed)
+# Install dependencies (if needed)
 npm install
 
-# 3. Start development server
+# Start development server with Turbopack (blazing fast ~1s compile)
 npm run dev
-
-# Or build & start production server
-npm run build
-npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) with your browser.
+
+## 🛠️ Build & Production
+
+```bash
+# Production build
+npm run build
+
+# Start production server
+npm run start
+```
